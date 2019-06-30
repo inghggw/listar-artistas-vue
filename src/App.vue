@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src="./assets/logo.png")
     h1 {{ msg }}
 
     select(v-model="selectedCountry")
